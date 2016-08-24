@@ -1,0 +1,28 @@
+{
+  "name": "stream-grep-cli",
+  "version": "0.1.0",
+  "description": "Command-line utility for grepping a stream, alerting when matches are found",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vramdal/streap-grep-cli.git"
+  },
+  "keywords": [
+    "stream",
+    "grep",
+    "cli"
+  ],
+  "author": "Vidar Skauge Ramdal",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/vramdal/streap-grep-cli/issues"
+  },
+  "homepage": "https://github.com/vramdal/streap-grep-cli#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.8.0"
+  }
+}
