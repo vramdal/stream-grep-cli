@@ -1,6 +1,6 @@
 {
   "name": "stream-grep-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Command-line utility for grepping a stream, alerting when matches are found",
   "main": "index.js",
   "scripts": {
