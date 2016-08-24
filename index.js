@@ -7,6 +7,7 @@ program
     .option('-f, --flags <flags>', 'Regexp flags', "")
     .action(function(pattern, cmd) {
         var regexp = new RegExp(pattern, cmd.flags);
+        cmd.summarize = true;
         var matchedLines = [];
         var rl = readline.createInterface({
             input: process.stdin,
